@@ -30,8 +30,8 @@ const mapStateToProps = (state) =>{
     car: state.car,
     additionalFeatures: state.additionalFeatures,
 
-  }
+  };
 
-}
+};
 
 export default connect(mapStateToProps,{})(App);
